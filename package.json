@@ -14,6 +14,9 @@
         "doc": "doc",
         "test": "tests"
     },
+    "publishConfig": {
+        "registry": "https://nexus.identitymgmt.net/repository/npm-private/"
+    },
     "scripts": {
         "build": "ember build",
         "lint:hbs": "ember-template-lint .",
